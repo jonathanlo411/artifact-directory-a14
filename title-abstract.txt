@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Auditing Sentiment Analysis Algorithms for Bias
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Sentiment analysis algorithms are steadily being integrated across the web to help with tasks such as content moderation. On many major websites, whether or not a comment is allowed to be posted at least partially depends on the output of a sentiment analysis algorithm on that comment. Three such algorithms are Textblob, VADER, and Perspective API. In this paper, we audit these three algorithms to test for bias against certain racial and gender groups. More specifically, we develop a dataset of sentences with three levels of hard-coded sentiments: positive, neutral, and negative. After developing a method to replace the racial and gender identity in the sentences, we query each sentiment analysis algorithm with each combination of race and gender. Statistical tests are computed on the output to determine if there is a significant bias in how each algorithm treats the different race and gender combinations.
